@@ -1,0 +1,113 @@
+#idx-calendar {
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+	height: 10%;
+} 
+#idx-calendar div > ul {
+    list-style: none ;
+    background-color: #d1d1d1;
+    margin: 0;
+    padding: 0 5px;
+}
+#idx-calendar #dayNames > ul {
+    background-color: #d1d1d1;
+}
+#idx-calendar ul li {
+    color: #008900;
+    float: left;
+    font-family: Tahoma;
+    font-weight: inherit;
+}
+#dayNames ul li {
+    margin: 1% 0;
+    padding: 2% 0;
+    width: 14%;
+	font-size:9;
+}
+#daysNum ul li:hover {
+    background-color: #232323;
+}
+#daysNum ul li {
+    padding: 2.5% 0;
+    width: 14%;
+}
+#dayNames,#daysNum {
+    clear: both;
+    width: 100%;
+	height:30%;
+	font-size:7;
+}
+#dayNames:after,#daysNum:after,#idx-calendar div > ul:after  {
+    content: "";
+    display: table;
+    clear: both;
+}
+#idx-calendar div > ul li:first-child {
+    color: #F05558;
+    font-weight: bold;
+}
+#idx-calendar li.dayNow {
+    color: #0084B4 !important;
+    font-weight: bold;
+    background-color: #232323;
+    position: relative;
+    z-index: 2;
+}
+.monthNow {
+    color: #0084B4;
+    font-family: arial;
+    font-size: 40px;
+    text-align: left;
+}
+#monthNow {
+    background-color:#d1d1d1;
+    font-family: verdana;
+    font-weight: bold;
+    color: #008900;
+    padding: 20px;
+    text-transform: uppercase;
+	font-size:12;
+}
+#calendar-control {
+    position: relative;
+}
+#nextMonth, #prevMonth {
+    transition:0.5s;
+    background-color: #d1d1d1;
+    color: #FFFFFF;
+    font-family: verdana;
+    height: 80%;
+    position: absolute;
+    right: 0;
+    text-transform: uppercase;
+    top: 0;
+    width: 60px;
+}
+#prevMonth{
+    left: 0;            
+}
+#prevMonth:before, #nextMonth:before {
+    background-color: #d1d1d1;
+    border-radius: 50%;
+    transition:0.5s;
+    border-right: 1px solid #FFFFFF;
+    border-top: 1px solid #FFFFFF;
+    content: "";
+    display: block;
+    height: 20px;
+    left: 20px;
+    position: relative;
+    top: 18px;
+    transform: rotate(45deg);
+    width: 20px;
+}
+#prevMonth:before{
+    transform: rotate(-135deg);
+}
+#nextMonth:hover, #prevMonth:hover{
+    background-color: transparent;
+}
+#nextMonth:hover:before, #prevMonth:hover:before{
+    border-radius: 0%;
+}

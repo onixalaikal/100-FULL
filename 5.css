@@ -1,0 +1,359 @@
+* {box-sizing: border-box;}
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:#D1D1D1;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  font-size:10;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #005C42;
+  color: white;
+}
+
+h6{
+	text-align:center;
+	color:#ffffff;
+	margin-left: 5%;
+}
+h1{
+	text-align:center;
+	color:#008900;
+	margin-left: 1%;
+	font-size:50;
+}
+h2{
+	text-align:center;
+	color:#ffffff;
+	font-size:23;
+	border-radius: 5px 5px 0px 0px;
+}
+input[type=text]
+{
+	width:230;
+	height:30;
+	border-radius: 5px 5px 5px 5px;
+	
+}
+input[type=password]
+{
+	width:230;
+	height:30;
+	border-radius: 5px 5px 5px 5px;
+	
+}
+input[type=submit]
+{
+	width:30;
+	height:20;
+	border: none;
+	border-radius: 2px 2px 2px 2px;
+	background-color: #00ff00;
+	color:#003300;
+	float:right;
+	margin-right:1%;
+}
+fieldset{
+	width:200;
+	height:200;
+	border:0;
+	border-radius: 3px 3px 3px 3px;
+	margin-left: 5%;
+	margin-top: 5%;
+	background-color:#e5e5e5;
+	float:left;
+}
+legend{
+	color:#ffffff;
+	width:80;
+	background-color:#e5e5e5;
+	margin-left:1%;
+	margin-top:10;
+	text-align:center;
+}
+
+#kepala{
+	background-color: #008900;
+	padding: 5px 10px;
+	height: 100;
+}
+#mata{
+	width:100;
+	height:100;
+	float:left;
+}
+#hidung{
+  overflow: hidden;
+  background-color: #009900;
+  padding: 5px 10px;
+  float: none;
+  text-align: center;
+  border-radius: 4px;
+  line-height: 25px;
+}
+#mulut{
+  overflow: hidden;
+  background-color: #008900;
+  padding: 5px 10px;
+  float: none;
+  text-align: center;
+  border-radius: 4px;
+  margin-top: 1%;
+}
+#tangan{
+  background-color: #19C200;
+  height:28;
+  margin-bottom:1%;
+}
+ul {
+  list-style-type: none;
+  margin-left:40%;
+  padding: 0;
+  overflow: hidden;
+  background-color: #19C200;
+  text-align: center;
+}
+
+li {
+  float: left;
+   text-align: center;
+   
+}
+li a:hover {
+  background-color: #00ff00;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+center ul{
+width: -moz-fit-content;
+width: -webkit-fit-content;
+#width: fit-content;
+margin: auto;
+}
+#caleandar{
+	margin-left: 2%;
+	margin-top: 2%;
+	float: left;
+	width:25%;
+	height:39.5%;
+	border: 1px solid #008800;
+	border-radius: 5px 5px 0px 0px;
+}
+#kanan{
+	margin-left: 2%;
+	margin-top: 2%;
+	float: left;
+	width:50%;
+	height:70%;
+	background-color: #C5C5C5;
+	border-radius: 5px 5px 5px 5px;
+}
+#bawah{
+	margin-top: 2%;
+	margin-right: 4%;
+	float: right;
+	width:15%;
+	height:30%;
+	border: 1px solid #008800;
+	border-radius: 5px 5px 5px 5px;
+}
+#jeruh{
+	margin-top: 2%;
+	margin-right: 4%;
+	float: right;
+	width:15%;
+	height:35%;
+	border: 1px solid #008800;
+	border-radius: 5px 5px 5px 5px;
+}
+#awak{
+	margin-left: 1%;
+	width:98%;
+	height:70%;
+	text-align: center;
+	border-radius: 0px 0px 5px 5px;
+}
+#kaki{
+	height:95;
+	font-size:20;
+	color:#00ff00;
+	margin-top:0.5%;
+	background-color: #008900;
+	vertical-align:bottom;
+	padding: 5px 10px;
+	float:none;
+}
+#aurat{
+		background-color:#007600;
+		height:25;
+		margin-bottom:1%;
+}
+@media screen and (max-width: 750px) {
+#kepala{
+	height:65;
+}
+img{
+	width:50;
+	height:50;
+}
+#mata{
+	height:55;
+	width:55;
+}
+#hidung{
+	height:30;
+	padding: 1px 3px;
+}
+#mulut{
+	height:25;
+}
+#tangan{
+	height:25;
+	margin-bottom:1%;
+}
+#kiri{
+	margin-left: 12%;
+	margin-top: 2%;
+	float: left;
+	width:80%;
+	height:18%;
+	border: 1px solid #dedede;
+	border-radius: 5px 5px 5px 5px;
+}
+#tengah{
+	margin-left: 12%;
+	margin-top: 5%;
+	width:80%;
+	height:35%;
+	border: 1px solid #dedede;
+	border-radius: 5px 5px 5px 5px;
+	padding-left:30px;
+}
+#kanan{
+	margin-left: 12%;
+	margin-top: 5%;
+	float: left;
+	width:80%;
+	height:15%;
+	border: 1px solid #dedede;
+	border-radius: 5px 5px 5px 5px;
+}
+#tanggal{
+	margin-top: 5%;
+	margin-left: 12%;
+	float: left;
+	width:80%;
+	height:20%;
+	border: 1px solid #dedede;
+	border-radius: 5px 5px 5px 5px;
+}
+
+#aurat{
+	background-color:#009988;
+	height:25;
+	margin-top:50%;
+}
+#kaki{
+	height:55;
+	font-size:12;
+	text-align:center;
+	margin-top:1%;
+	color:#ffffff;
+}
+input[type=text]
+{
+	width:200;
+	height:14;
+	border-radius: 5px 5px 5px 5px;
+	
+}
+input[type=password]
+{
+	width:200;
+	height:20;
+	border-radius: 5px 5px 5px 5px;
+	
+}
+input[type=submit]
+{
+	width:200;
+	height:20;
+	border: none;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	border-radius: 2px 2px 2px 2px;
+	background-color: #00ff00;
+	color:#003300;
+	float:left;
+	margin-left:1%;
+}
+fieldset{
+	width:150;
+	height:150;
+	border:1;
+	border-color:#ffff00;
+	border-radius: 3px 3px 3px 3px;
+}
+legend{
+	color:#00ff00;
+	width:80;
+	background-color:#389B00;
+	margin-left:5;
+	margin-top:10;
+	text-align:center;
+}
+ul {
+  list-style-type: none;
+  margin-left:22%;
+  padding: 0;
+  overflow: hidden;
+  background-color: #19C200;
+  text-align: center;
+}
+
+li {
+  float: left;
+   text-align: center;
+   
+}
+li a:hover {
+  background-color: #00ff00;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 2px 9px;
+  text-decoration: none;
+}
+center ul{
+width: -moz-fit-content;
+width: -webkit-fit-content;
+#width: fit-content;
+margin: auto;
+}
+#awak{
+	margin-left: 20%;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	width:60%;
+	height:150%;
+	text-align: center;
+	border-radius: 5px 5px 5px 5px;
+}
+}
